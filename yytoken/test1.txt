@@ -1,0 +1,48 @@
+import java.io.*;
+
+
+public class test1{ 
+    
+    
+    System.out.println("hello");
+    
+    Scanner s = new Scanner(System.in);
+    int a = s.nextInt();
+    
+    /* decrease a */
+    --a;
+    
+    int b=15;
+    int c =0 ;
+    if( b % 2  = 0 )  {
+    
+    c++;
+    
+    }  
+    
+    float[] ary =  { +1.2 , -5 , +22 , -14.3 ,50.3 ,.2 };
+    a=b+c;
+    System.out.println(a);
+    
+   }
+    
+    
+ 
+
+   
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+	  
+ 

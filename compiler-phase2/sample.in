@@ -1,0 +1,46 @@
+import java.util.Random;
+
+public class test {
+ public static void main(String[] args)throws Exception {
+	  
+	 int x,y,z=0;
+	 
+	 x=8;
+	 y=18;
+	 
+	 
+	 calc(x,y);  
+	
+	 
+	
+ }
+static void calc(int  a , int b) {	 
+	Random rand = new Random();
+		 for (;b>-3;b--) {
+			  int random = rand.nextInt(10)+1;
+			if ((a-b)%random!=0) {
+				System.out.println("x:"+a+", y:"+b+", z:"+ random+" | Summertime("+b+")");
+			}else System.out.println( "x:"+a+", y:"+b+", z:"+ random+" | Sadness("+b+")");
+		 }
+		 
+	 }
+ 
+ 
+}
+   
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+	  
+ 
